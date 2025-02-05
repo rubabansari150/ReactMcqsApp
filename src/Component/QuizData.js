@@ -12,7 +12,7 @@ const questions = [
     ],
   },
   {
-    questionText: "*Who developed React?* ",
+    questionText: "2. *Who developed React?* ",
     answeroptions: [
       { answerText: "Google ", isCorrect: false },
       { answerText: "Facebook (Meta)", isCorrect: true },
@@ -32,7 +32,7 @@ const questions = [
   },
   {
     questionText:
-      "3. *What is the latest stable version of React as of 2024?* ",
+      "4. *What is the latest stable version of React as of 2024?* ",
     answeroptions: [
       { answerText: "18", isCorrect: false },
       { answerText: "17", isCorrect: false },
@@ -41,7 +41,7 @@ const questions = [
     ],
   },
   {
-    questionText: "4. *What is JSX in React?* ",
+    questionText: "5. *What is JSX in React?* ",
     answeroptions: [
       { answerText: "JavaScript Extension ", isCorrect: true },
       { answerText: "Java XML", isCorrect: false },
@@ -51,7 +51,7 @@ const questions = [
   },
   {
     questionText:
-      "5. *Which method is used to create a new React component?*  ",
+      "6. *Which method is used to create a new React component?*  ",
     answeroptions: [
       { answerText: "React.createClass()", isCorrect: false },
       { answerText: "React.createComponent()", isCorrect: false },
@@ -60,7 +60,7 @@ const questions = [
     ],
   },
   {
-    questionText: "6. *React is based on which architecture?* ",
+    questionText: "7. *React is based on which architecture?* ",
     answeroptions: [
       { answerText: "MVC", isCorrect: false },
       { answerText: "MVVM", isCorrect: false },
@@ -69,7 +69,7 @@ const questions = [
     ],
   },
   {
-    questionText: "7. *Which function component syntax is correct?*",
+    questionText: "8. *Which function component syntax is correct?*",
     answeroptions: [
       {
         answerText: "function MyComponent() { return <h1>Hello</h1>; }",
@@ -84,7 +84,7 @@ const questions = [
     ],
   },
   {
-    questionText: "8. *What is the primary purpose of props in React?*  ",
+    questionText: "9. *What is the primary purpose of props in React?*  ",
     answeroptions: [
       { answerText: "To store local component state ", isCorrect: false },
       {
@@ -96,19 +96,12 @@ const questions = [
     ],
   },
   {
-    questionText: "9. *How are props passed in a React component?* ",
+    questionText: "10. *How are props passed in a React component?* ",
     answeroptions: [
       { answerText: "<Component props='value' />", isCorrect: false },
       { answerText: "<Component {props} /> ", isCorrect: false },
       { answerText: "<Component propName='value' /> ", isCorrect: true },
       { answerText: "<Component.propName = 'value' />  ", isCorrect: false },
-    ],
-  },
-  {
-    questionText: "10. *Can props be modified inside a child component?* ",
-    answeroptions: [
-      { answerText: "Yes", isCorrect: false },
-      { answerText: "No", isCorrect: true },
     ],
   },
 ];
