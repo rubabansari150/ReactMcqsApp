@@ -34,7 +34,7 @@ const questions = [
     questionText: "4.*Can props be modified inside a child component?*  ",
     answeroptions: [
       { answerText: "Yes", isCorrect: false },
-      { answerText: "No", isCorrect: true },
+      { answerText: "No", isCorrect: true }
     ],
   },
   {
