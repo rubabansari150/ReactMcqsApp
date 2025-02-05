@@ -31,13 +31,10 @@ const questions = [
     ],
   },
   {
-    questionText:
-      "4. *What is the latest stable version of React as of 2024?* ",
+    questionText: "4.*Can props be modified inside a child component?*  ",
     answeroptions: [
-      { answerText: "18", isCorrect: false },
-      { answerText: "17", isCorrect: false },
-      { answerText: "18", isCorrect: false },
-      { answerText: "19", isCorrect: true },
+      { answerText: "Yes", isCorrect: false },
+      { answerText: "No", isCorrect: true },
     ],
   },
   {
